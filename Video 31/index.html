@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        body{
+            background-color: red;
+        }
+        @media screen and (orientation: landscape){
+            body{
+                background-color: purple;
+                border: 2px solid green;
+            }
+        }
+        @media only screen and (max-width:455px) {
+            body{
+                background-color: blue;
+            }
+        }
+        .boxex{
+            display: flex;
+        }
+        .box{
+            width: 344px;
+            height: 344px;
+            background-color: steelblue;
+            padding: 34px;
+            margin: 34px;
+          
+        }
+    </style>
+</head>
+<body>
+        <div>Hey I am red guy</div>
+        <div class="boxex">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </body>
+</html>
