@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cards{
+            border: 2px solid red;
+            display: flow-root;
+        }
+        img{
+            float: left;
+        }
+        .card{
+            border: 2px solid green ;
+        }
+        .card:nth-child(3){
+            clear: both;
+            background-color: aqua  ;
+            border-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img height="230" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*EGgUvJzlC-Q2tdqkWcSpIw.jpeg" alt="aman">
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi molestiae totam debitis! Cumque quam reiciendis consequatur iure quia quis accusamus totam eum nam rerum dolorum officiis est molestias provident, autem facilis, dicta nisi beatae!</div>
+        <div class="card">card2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo similique, ipsa repellendus laborum inventore debitis perferendis magni totam temporibus sed quis! Quas, sequi neque cum est nesciunt veritatis consequatur at maiores! Impedit, iusto quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. At temporibus cumque sapiente omnis assumenda. Sint beatae unde nulla quo eligendi sunt delectus neque molestiae facere totam velit consectetur, ipsum alias non maxime! Minima reiciendis pariatur reprehenderit veniam. Obcaecati ullam explicabo atque tempore. Corporis, modi nostrum?</div>
+        <div class="card">card3</div>
+    </div>
+</body>
+</html>

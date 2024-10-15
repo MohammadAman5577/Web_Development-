@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        .box:first-child {
+            background-color: blueviolet;
+
+        }
+
+        .box:nth-child(2) {
+            background-color: greenyellow;
+        }
+
+        .box:nth-child(3) {
+            background-color: burlywood;
+        }
+
+        /*.box::first-line{
+    background-color: aqua;
+}*/
+        .boxes * {
+            color: rgb(76, 237, 237);
+            border: 2px solid black;
+        }
+
+        /*p,
+        a,
+        div,
+        .box,
+        [data-color="primary"] {
+            margin-top: 35px;
+
+        }*/
+
+        .boxes::before {
+            content: "aman is a good boy";
+        }
+
+        .boxes::after {
+            color: blue;
+            content: "WHo lets the dogs out";
+        }
+
+        ::selection {
+            background-color: black;
+            color: greenyellow;
+
+        }
+
+        .box::first-letter {
+            color: peru;
+            font-size: 45px;
+        }
+        input::placeholder{
+            color:chocolate;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">I am a box Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Voluptatibus, quibusdam quisquam corrupti inventore sed assumenda ducimus quod voluptatem tempora deleniti
+            sit quidem cum in ullam libero magnam distinctio vero consectetur nemo quasi cumque soluta repudiandae, quo
+            at? Rem repellendus quod nisi eaque excepturi amet nam voluptates mollitia repellat reprehenderit totam
+            explicabo veniam, at perspiciatis natus repudiandae!</div>
+        <div class="box">I am a box</div>
+        <div class="box">I am a box</div>
+        <input type="Text" placeholder="Type your  text">
+    </div>
+</body>
+
+</html>
