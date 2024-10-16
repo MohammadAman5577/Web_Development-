@@ -1,0 +1,41 @@
+*{
+    margin: 0;padding: 0;
+}
+header{
+    background-color: aqua;
+    height: 60px;
+}
+.c1{
+background-color: bisque;
+height: 60vh;
+}
+.c2{
+    margin-left: 35px;
+background-color: blueviolet;
+height: 250px;
+width: 250px;
+display: inline-block;
+
+}
+.c3{
+    background-color: rgb(45, 155, 65);
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+.c4{
+    margin-top: 80px;
+        border: 2px solid black;
+        height: 50px;
+        border-radius: 50px;
+        width: 390px;
+        margin-left: 190px;
+
+}
+footer{
+    background-color: chartreuse;
+    height: 60px;
+    margin-top: 1000px;
+}
