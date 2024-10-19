@@ -1,0 +1,49 @@
+.container{
+    border: 2px solid black;
+    /* background-color: aqua; */
+    display: grid;
+    width: 80vw;
+    border: 2px solid blue;
+    /* grid-template-columns: [pahla] 120px [doosra] 100px; */
+    /* grid-template-rows: 100px 100px 100px; */
+   /* grid-template-columns: 1fr 1fr 1fr;
+    */
+    grid-template-columns: repeat(4,minmax(100px,1fr));
+    gap: 34px;
+   width:vw;
+   height: 80vh;
+   row-gap: 10px;
+   justify-items:center;
+   align-items: center;
+   column-gap: 44px;
+}
+.items{
+    border: 2px solid red;
+     width: 55px;
+    height: 55px;
+    background-color: blueviolet;
+}
+.items-1{
+    /* grid-column:1/2 ;
+    grid-row:3/4 ; */
+    /* background-color: azure;
+    grid-area: nav; */
+}
+.items-2{
+    /* grid-area: main;
+    background-color: aqua; */
+}
+.items-3{
+/* grid-area: fati;
+background-color: yellowgreen;
+} */
+.items-4{
+    /* grid-row: 1/2 ; */
+    /* grid-column:pahla/doosra ; */
+    /* background-color: yellow;
+    grid-area: kadu; */
+}
+.items-5{
+    /* background-color: wheat;
+    grid-area: nav; */
+}
