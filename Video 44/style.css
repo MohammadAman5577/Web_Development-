@@ -1,0 +1,15 @@
+.box p {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    height: 30px;
+    width: 30px;
+}
+
+img {
+    display: flex;
+    height: 70px;
+    /* align-items: center;
+    justify-content: center; */
+    width: 70px;
+}
