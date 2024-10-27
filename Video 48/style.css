@@ -1,0 +1,54 @@
+.box {
+    height: 121px;
+    width: 121px;
+    background-color: red;
+    border-radius: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation-name: amanBanayegaXY;
+    animation-duration: 4s;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-name: amanBanayega;
+}
+
+.container {
+    position: relative;
+    height: 80vh;
+    width: 80vw;
+    background-color: blue;
+    
+
+}
+
+
+@keyframes amanBanayegaXY {
+    from {
+        transform: translateY(-350px);
+        /* transform: translateY(80px); */
+        background-color: black;
+
+    }
+
+    to {
+        /* transform: translateX(30px); */
+        transform: translateY(-120px);
+
+    }
+}
+@keyframes amanBanayega {
+    from {
+        /* transform: translateY(-350px); */
+        transform: translateX(80px);
+        background-color: black;
+
+    }
+
+    to {
+        transform: translateX(30px);
+        /* transform: translateY(-120px); */
+
+    }
+}
