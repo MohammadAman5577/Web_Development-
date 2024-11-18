@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let rand = Math.random()
+        let first, second , third
+
+        //this gives the first string generator
+        if(rand<0.33){
+            first = "crazy"
+        }
+        else if(0.34<rand<0.66){
+            first = "amanzing"
+        }
+        else{
+            first= "fire"
+        }
+
+        //this is the second string generator 
+        rand = Math.random()
+        if(rand<0.33){
+            second   = "garments"
+        }
+        else if(0.34<rand<0.66){
+            second   = "engine "
+        }
+        else{
+            second  = "food"
+        }
+        
+        //this is the third generated string
+        rand = Math.random()
+        if(rand<0.33){
+            third = "bros"
+        }
+        else if(0.34<rand<0.66){
+            third = "computer"
+        }
+        else{
+            third= "hub"
+        }
+        console.log(`{${first} ${second} ${third}}`)
+    </script>
+</body>
+</html>
