@@ -1,0 +1,6 @@
+async function background me chalega
+
+promise ke settle hone ka matlab resolve ya reject
+
+resolve means promise has settled succesfully 
+reject means promise has not settled succesfully
