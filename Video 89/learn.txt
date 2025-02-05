@@ -1,0 +1,2 @@
+browser jis request ko istemaal karta hai wo get request hoti hai
+
